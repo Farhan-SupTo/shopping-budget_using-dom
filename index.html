@@ -19,13 +19,13 @@
   </head>
   <body>
     <div>
-      <h1 class="text-center fw-bold text-danger">
-        Shopping Budget : <span> 3000</span>
+      <h1 class="text-center fw-bold p-2 text-dark bg-light">
+        Shopping Budget : <span> 3000Tk</span>
       </h1>
     </div>
 
-    <div class="shop-container d-flex justify-content-around">
-      <div>
+    <div class="shop-container">
+      <div class="d-flex justify-content-around p-3">
         <div class="rose p-2 box">
           <img class="logo" src="./images/kitkat.png" alt="" />
           <h6>KitKat Chocolate</h6>
@@ -36,7 +36,7 @@
             placeholder="type here Quantity"
           />
           <br />
-          <button id="kitkat-buy-btn" class="buy-btn">
+          <button id="kitkat-buy-btn" class="buy-btn btn-primary">
             Buy Now
           </button>
         </div>
@@ -49,7 +49,7 @@
             type="text"
             placeholder="type here Quantity"
           />
-          <button id="rose-buy-btn" class="buy-btn">Buy Now</button>
+          <button id="rose-buy-btn" class="buy-btn btn-primary">Buy Now</button>
         </div>
         <div class="rose p-3 box">
           <img class="logo" src="./images/diary.jpg" alt="" />
@@ -60,10 +60,10 @@
             type="text"
             placeholder="type here Quantity"
           />
-          <button id="diary-buy-btn" class="buy-btn">Buy Now</button>
+          <button id="diary-buy-btn" class="buy-btn btn-primary">Buy Now</button>
         </div>
       </div>
-      <div class="money-tracker text-center">
+      <div class="money-tracker text-center m-auto">
         <h4>Chocolate: <span id="chocolate"> 00</span></h4>
         <hr />
         <h4>Rose: <span id="rose"> 00</span></h4>
@@ -73,7 +73,7 @@
         <h3>Total: <span id="total"> 00</span></h3>
 
         <div class="promo-code mt-3 text-center p-3">
-          <h5 class="bg-info mt-2">Use Promo Code for 10% Discount</h5>
+          <h5 class="bg-primary mt-2 p-2 text-white rounded">Use Promo Code for 10% Discount</h5>
           <input
             id="promo-code"
             class="p-2 mt-2"

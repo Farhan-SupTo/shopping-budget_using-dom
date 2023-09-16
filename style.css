@@ -9,15 +9,14 @@
 .buy-btn{
     padding:10px 10px;
     border: none;
-    background-color: rgb(133, 15, 125);
     border-radius: 10px;
     color: white;
-    margin-top:5px;
+    margin-top:7px;
 }
 .money-tracker{
     width:400px;
-    height:100vh;
-    border: 1px solid gray;
+    height:50vh;
+    /* border: 1px solid gray; */
     padding: 20px;
 }
 .logo{
