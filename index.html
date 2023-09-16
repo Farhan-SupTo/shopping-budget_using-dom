@@ -19,13 +19,13 @@
   </head>
   <body>
     <div>
-      <h1 class="text-center fw-bold p-2 text-dark bg-light">
+      <h1 class="title text-center fw-bold p-2 text-dark bg-light">
         Shopping Budget : <span> 3000Tk</span>
       </h1>
     </div>
 
     <div class="shop-container">
-      <div class="d-flex justify-content-around p-3">
+      <div class="card-container d-flex justify-content-around p-3">
         <div class="rose p-2 box">
           <img class="logo" src="./images/kitkat.png" alt="" />
           <h6>KitKat Chocolate</h6>
@@ -49,17 +49,19 @@
             type="text"
             placeholder="type here Quantity"
           />
+          <br />
           <button id="rose-buy-btn" class="buy-btn btn-primary">Buy Now</button>
         </div>
         <div class="rose p-3 box">
           <img class="logo" src="./images/diary.jpg" alt="" />
           <h6>Diary</h6>
-          <h5>Price: <span id="diary-price"> 100</span></h5>
+          <h5>Price: <span id="diary-price"> 50</span></h5>
           <input
             id="diary-quantity"
             type="text"
             placeholder="type here Quantity"
           />
+          <br />
           <button id="diary-buy-btn" class="buy-btn btn-primary">Buy Now</button>
         </div>
       </div>
@@ -87,7 +89,7 @@
             Apply
           </button>
         </div>
-        <h2 class="mt-5">ALL COST :<span id="all-total"> 00</span></h2>
+        <h2 class="mt-2">ALL COST :<span id="all-total"> 00</span></h2>
       </div>
     </div>
 

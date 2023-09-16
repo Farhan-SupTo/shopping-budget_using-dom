@@ -24,3 +24,13 @@
     height: 70px;
 
 }
+@media only screen and (max-width: 767px){
+    .card-container{
+        /* display: flex; */
+        flex-direction: column;
+        
+    }
+    .box{
+        width: 100%;
+    }
+}
